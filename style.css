@@ -1,0 +1,67 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align:center;
+    margin-top:220px;
+    
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    height:80vh;
+}
+
+.logo{
+    font-family: 'Montserrat', sans-serif;
+    font-size:100px;
+    color:#FFFFFF;
+    font-weight:700;
+    text-shadow:3px 3px 10px rgba(0, 0, 0, 1);
+}
+
+.search-box{
+    margin-top:30px;
+}
+
+input{
+    width:500px;
+    padding:12px;
+    font-size:26px;
+    border:3px solid #000000;
+    border-radius:25px;
+}
+
+button{
+    padding:22px 30px;
+    border:none;
+    background:#000000;
+    color:white;
+    border-radius:80px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#0D149F;
+}
+
+#results{
+    margin-top:40px;
+    width:600px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:left;
+}
+
+.result{
+    margin-bottom:20px;
+}
+
+.result a{
+    font-size:18px;
+    color:#1a0dab;
+    text-decoration:none;
+}
+
+.result p{
+    color:#555;
+}
